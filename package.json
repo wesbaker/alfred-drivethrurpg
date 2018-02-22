@@ -1,0 +1,20 @@
+{
+  "name": "alfred-drivethrurpg",
+  "version": "1.0.0",
+  "description": "Alfred Workflow to search DriveThruRPG",
+  "main": "index.js",
+  "repository": "https://github.com/wesbaker/alfred-drivethrurpg",
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "author": {
+    "name": "Wes Baker",
+    "email": "wes@wesbaker.com",
+    "url": "wesbaker.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "alfy": "^0.7.0"
+  }
+}
