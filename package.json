@@ -16,5 +16,8 @@
   "license": "MIT",
   "dependencies": {
     "alfy": "^0.9.0"
+  },
+  "renovate": {
+    "extends": ["github>wesbaker/renovate-config"]
   }
 }
