@@ -6,7 +6,8 @@
   "repository": "https://github.com/wesbaker/alfred-drivethrurpg",
   "scripts": {
     "postinstall": "alfy-init",
-    "preuninstall": "alfy-cleanup"
+    "preuninstall": "alfy-cleanup",
+    "test": "eslint index.js"
   },
   "author": {
     "name": "Wes Baker",
@@ -17,7 +18,7 @@
   "dependencies": {
     "alfy": "^0.10.0"
   },
-  "renovate": {
-    "extends": ["github>wesbaker/renovate-config"]
+  "devDependencies": {
+    "eslint": "^7.17.0"
   }
 }
