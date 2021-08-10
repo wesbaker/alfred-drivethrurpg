@@ -15,8 +15,11 @@
     "url": "wesbaker.com"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">= 14.0.0"
+  },
   "dependencies": {
-    "alfy": "^0.11.0"
+    "alfy": "^0.12.0"
   },
   "devDependencies": {
     "eslint": "^7.17.0"
