@@ -22,6 +22,6 @@
     "alfy": "^0.12.0"
   },
   "devDependencies": {
-    "eslint": "^7.17.0"
+    "eslint": "^8.0.0"
   }
 }
