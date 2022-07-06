@@ -4,7 +4,7 @@ alfy
   .fetch(
     "http://drivethrurpg.com/includes/ajax/search_autocomplete_jquery.php",
     {
-      query: { term: alfy.input },
+      searchParams: { term: alfy.input },
       json: true,
       // transform: body
     }
